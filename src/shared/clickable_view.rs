@@ -5,7 +5,7 @@ live_design! {
     import makepad_widgets::view::*;
 
     ClickableView = {{ClickableView}} {
-        walk: {width: Fit, height: Fit}
+        width: Fit, height: Fit
         show_bg: true
         draw_bg: {
             color: #fff
